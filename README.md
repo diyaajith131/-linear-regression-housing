@@ -34,11 +34,11 @@ python src/train.py --data-path data/housing.csv --target-column SalePrice --out
 python src/visualize.py --metrics outputs/metrics.json --model models/linear_regression.pkl --data-path data/housing.csv --target-column SalePrice --output-dir outputs
 ```
 
-5. You'll find:
+5. find:
 - `outputs/metrics.json` : MAE, MSE, RMSE, R2.
 - `models/linear_regression.pkl` : Pickled trained model.
 - `outputs/` : Plots and saved artifacts.
 
 ## Notes
 - Dataset is **NOT** included due to licensing and size; download it from Kaggle and place in `data/`.
-- The code is written to work with a typical housing CSV; you may need to adapt column names (target column, categorical fields).
+- The code is written to work with a typical housing CSV;  to adapt column names (target column, categorical fields).
