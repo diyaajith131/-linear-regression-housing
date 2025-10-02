@@ -16,7 +16,7 @@ Use the Kaggle Housing Price Prediction dataset (place `housing.csv` in `data/`)
 ## Results (example)
 *(After running `train.py` you will find exact numbers in `outputs/metrics.json`.)*
 
-## Interview Questions (short answers)
+ frequently assking Questions 
 1. **Assumptions of linear regression**: linearity, independence of errors, homoscedasticity (constant variance), normality of errors (for inference), no perfect multicollinearity.
 2. **Interpreting coefficients**: In a multiple linear regression, a coefficient is the expected change in the target for a one-unit increase in the feature, holding other features constant.
 3. **R² score**: Fraction of variance explained by the model (0 to 1). Higher is better but can be misleading if overfitting.
